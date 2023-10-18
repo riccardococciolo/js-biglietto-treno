@@ -23,3 +23,6 @@ console.log(finalPrice);
 const message = `Il suo biglietto costa ${finalPrice.toFixed(2)}£ le auguriamo un buon viaggio.`;
 console.log(message);
 
+// output
+document.getElementById("price").innerHTML = message;
+
